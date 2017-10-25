@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add-task{
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.add-task input[type=text]{
+    width: 80%;
+}
+
+.complete{
+    text-decoration: line-through;
+    color: grey;
+}
+
+.edit-task input[type=text]{
+    width: 100%;
+    float: left;
+}
+
+.task-list{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid darkblue;
+    min-height: 20px;
+    overflow: auto;
+}
+
+.task-list li {
+    list-style-type: none;
+    padding: 3px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.task {
+    float: left;
+    width: 75%;
+    min-height: 26px;
+}
+
+.task input[type=text]{
+    height: 24px;
+    width: 100%;
+    background-color: lightblue;
+    border: none;
+    overflow:hidden;
+}
+
+.task input[type=text]:focus{
+    outline: none;
+}
+
+.task-buttons{
+    float: right;
+}
+
+.task-buttons button{
+    height: 26px;
+    color: white;
+    border: none;
+}
+
+.task-buttons button:focus{
+    outline: none;
+}
+
+.btn-delete{
+    background-color: red;
+}
+
+.btn-complete{
+    background-color: blue;
+}
+
+.btn-delete:hover{
+    background-color: darkred;
+}
+
+.btn-complete:hover{
+    background-color: darkblue;
+}
+
+#container{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid darkblue;
+    background-color: lightblue;
+    border-radius: 50px 0px 50px 0px; 
+}
